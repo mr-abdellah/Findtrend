@@ -1,19 +1,18 @@
 /* eslint-disable */
-
 import React from "react";
-import "../styles/Hero.css";
-import heroImg from "../assets/img-hero.png";
-import SocialMediaComponent from "../components/SocialMedia/SocialMediaComponent";
+import "./Hero.css";
+import heroImg from "../../assets/img-hero.png";
+import SocialMediaComponent from "../../components/SocialMedia/SocialMediaComponent";
 // imgs
-import TwitterImg from "../assets/twitter.png";
-import PinterestImg from "../assets/pinterest.png";
-import FacebookImg from "../assets/facebook.png";
-import DribbleImg from "../assets/dribble.png";
+import TwitterImg from "../../assets/twitter.png";
+import PinterestImg from "../../assets/pinterest.png";
+import FacebookImg from "../../assets/facebook.png";
+import DribbleImg from "../../assets/dribble.png";
 //
 
 const Hero = () => {
   return (
-    <div className="Hero">
+    <section className="Hero">
       <h1 className="">Minimize your tabs.</h1>
       <h2>Find the trends!</h2>
       <p>
@@ -51,7 +50,7 @@ const Hero = () => {
           zIndex='1'
           />
       </div>
-    </div>
+    </section>
   );
 };
 

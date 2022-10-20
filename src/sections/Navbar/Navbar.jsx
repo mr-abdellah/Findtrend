@@ -1,6 +1,6 @@
 /* eslint-disable */
-import Logo from "../assets/logo.png";
-import "../styles/Navbar.css";
+import Logo from "../../assets/logo.png";
+import "./Navbar.css";
 
 const Navbar = () => {
   return (

@@ -52,6 +52,10 @@
   margin-top: 10%;
 }
 
+.social__media div:last-child {
+  margin-bottom: 10%;
+}
+
 @media only screen and (min-width: 768px) {
   .Hero {
     margin-top: 5%;
@@ -79,7 +83,8 @@
 
   .social__media {
     display: flex;
+    flex-wrap: wrap;
     width: 80%;
-    margin: 0 auto;
+    margin: 5% auto 0;
   }
 }

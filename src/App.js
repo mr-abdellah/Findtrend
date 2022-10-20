@@ -1,11 +1,14 @@
-import Navbar from "./sections/Navbar";
 import HeroBackground from "./assets/Bg-hero.png";
-import Hero from "./sections/Hero";
+import Hero from "./sections/Hero/Hero";
+import Navbar from "./sections/Navbar/Navbar";
 
 function App() {
   return (
     <div className="APP">
-      <div className="header" style={{ backgroundImage: `url(${HeroBackground})` }}>
+      <div
+        className="header"
+        style={{ backgroundImage: `url(${HeroBackground})` }}
+      >
         <Navbar />
         <Hero />
       </div>
