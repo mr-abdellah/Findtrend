@@ -1,4 +1,5 @@
 import HeroBackground from "./assets/Bg-hero.png";
+import FeatureSection from "./sections/FeatureSection/FeatureSection";
 import Hero from "./sections/Hero/Hero";
 import Navbar from "./sections/Navbar/Navbar";
 
@@ -12,6 +13,8 @@ function App() {
         <Navbar />
         <Hero />
       </div>
+
+      <FeatureSection />
     </div>
   );
 }
