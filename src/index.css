@@ -1,3 +1,17 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@font-face {
+  font-family: "EffraL";
+  src: url('./assets/Fonts/Effra_L.ttf');
+}
+
+@font-face {
+  font-family: "EffraR";
+  src: url('./assets/Fonts/Effra_R.ttf');
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}

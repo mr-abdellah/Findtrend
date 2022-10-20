@@ -1,11 +1,13 @@
 import Navbar from "./sections/Navbar";
 import HeroBackground from "./assets/Bg-hero.png";
+import Hero from "./sections/Hero";
 
 function App() {
   return (
-    <div className="h-screen">
-      <div className="w-full flex justify-center" style={{ backgroundImage: `url(${HeroBackground})` }}>
+    <div className="APP">
+      <div className="header" style={{ backgroundImage: `url(${HeroBackground})` }}>
         <Navbar />
+        <Hero />
       </div>
     </div>
   );

@@ -1,0 +1,95 @@
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3%;
+}
+
+.Logo h3 {
+  display: none;
+}
+
+.Navbar__links {
+  display: none;
+}
+
+.Navbar__login {
+  display: none;
+}
+
+.hamburger div {
+  width: 20px;
+  height: 4px;
+  opacity: 0.7;
+  background-color: white;
+  margin-top: 0.3rem;
+}
+
+@media (min-width: 768px) {
+  .Navbar {
+    padding: 1% 2%;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .Logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .Logo h3 {
+    margin-left: 5%;
+    display: block;
+    color: white;
+    font-family: "EffraR", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+  }
+
+  .Navbar__links {
+    display: flex;
+    align-items: center;
+    width: 35%;
+    justify-content: space-evenly;
+  }
+
+  .Navbar__links a {
+    font-family: "EffraL", sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+  }
+
+  .Navbar__login {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .Navbar__login a:first-child {
+    font-family: "EffraR", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: white;
+  }
+
+  .Navbar__login a:last-child {
+    font-family: "EffraR", sans-serif;
+    background: #ffffff;
+    border-radius: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: #000000;
+    padding: 0.7rem 1.5rem;
+  }
+}
