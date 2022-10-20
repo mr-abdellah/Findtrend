@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React from "react";
 import "../styles/Hero.css";
 import heroImg from "../assets/img-hero.png";

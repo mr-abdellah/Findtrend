@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Logo from "../assets/logo.png";
 import "../styles/Navbar.css";
 
