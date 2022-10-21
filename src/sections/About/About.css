@@ -1,0 +1,33 @@
+.About {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.About h1,
+.About h2 {
+  font-family: "EffraBold", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 43px;
+}
+
+.About h1 {
+  margin: 5rem 0;
+}
+
+.About span {
+  color: #adadad;
+}
+
+.About h2 {
+  text-align: center;
+}
+
+.companies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  gap: 1rem;
+}
