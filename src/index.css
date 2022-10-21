@@ -8,6 +8,11 @@
   src: url('./assets/Fonts/Effra_R.ttf');
 }
 
+@font-face {
+  font-family: "EffraBold";
+  src: url('./assets/Fonts/Effra_Bd.ttf');
+}
+
 html, body {
   margin: 0;
   padding: 0;
