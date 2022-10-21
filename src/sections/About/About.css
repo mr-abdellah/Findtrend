@@ -31,3 +31,71 @@
   width: 100%;
   gap: 1rem;
 }
+
+.About h3 {
+  font-family: "EffraBold", sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #000000;
+}
+
+.platforms {
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.platforms img {
+  width: 14%;
+  padding: 4%;
+  border-radius: 8px;
+}
+
+.platforms img:hover {
+  background-color: #a8ff35;
+}
+
+.tweets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5% auto;
+  gap: 1rem;
+}
+
+.tweets button {
+  font-family: "EffraR";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+  color: #fff;
+  background: #000000;
+  border-radius: 40px;
+  margin: 5% auto;
+  padding: 3% 7%;
+}
+
+@media (min-width: 768px) {
+  .platforms {
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .platforms img {
+    width: 5%;
+    padding: 2%;
+  }
+
+  .tweets img {
+    width: 70%;
+    object-fit: cover;
+  }
+
+  .tweets button {
+    padding: 2% 6%;
+  }
+}
