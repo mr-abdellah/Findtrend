@@ -1,6 +1,5 @@
 import React from "react";
 import CompanyComponent from "./../../components/CompanyComponent/CompanyComponent";
-import MicrosoftImg from "../../assets/companies/microsoft.png";
 import "./About.css";
 
 const About = () => {
