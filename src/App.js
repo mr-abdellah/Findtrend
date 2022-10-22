@@ -4,6 +4,7 @@ import Deals from "./sections/Deals/Deals";
 import FeatureSection from "./sections/FeatureSection/FeatureSection";
 import Hero from "./sections/Hero/Hero";
 import Navbar from "./sections/Navbar/Navbar";
+import NewsLetter from './sections/NewsLetter/NewsLetter';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <FeatureSection />
       <About />
       <Deals />
+      <NewsLetter />
     </div>
   );
 }
