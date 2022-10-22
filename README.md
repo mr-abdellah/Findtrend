@@ -1,3 +1,5 @@
+
+![findtrend](https://user-images.githubusercontent.com/98021746/197342280-4790b07f-8ac0-4927-ba41-6fba7d3250ab.png)
 ## Findtrend
 
 Findtrend helps you to increase your productivity and reduce your computer's memory load, an application that can fulfill your daily browsing needs.
@@ -13,7 +15,6 @@ or
 
 ### Clone it in your local machine using GIT
 to get a local copy , clone the repository using git clone
-
 
 ### Step to run the project after cloning :
 
