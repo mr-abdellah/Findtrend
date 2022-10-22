@@ -1,0 +1,64 @@
+.deal__component {
+  width: 80%;
+  height: 100%;
+  padding: 1.5rem;
+  border-radius: 15.0667px;
+  height: 602px;
+  font-family: "EffraR", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.deal__component h3 {
+  font-size: 32px;
+  line-height: 100%;
+  margin: 0;
+}
+
+.deal__component__description {
+  font-size: 18px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.deal__component__price {
+  font-size: 18px;
+  line-height: 100%;
+  margin: 3rem 0;
+}
+
+.deal__component__price > span {
+  font-size: 60px;
+  font-family: "EffraBold", sans-serif;
+}
+
+.deal__component
+  > div
+  > p:not(.deal__component__description, .deal__component__price) {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 100%;
+}
+
+.deal__component button {
+  width: 100%;
+  font-family: "EffraBold", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  border-radius: 27.3083px;
+  border: none;
+  padding: 1rem 0;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .deal__component {
+    width: 27%;
+  }
+}
