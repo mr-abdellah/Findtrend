@@ -24,7 +24,7 @@ const DealComponent = ({
         <h3>{title}</h3>
         <p className="deal__component__description">{description}</p>
         <hr
-          style={(background = "#A8FF35" && { borderTop: "1px solid black" })}
+          style={(background = "#A8FF35" && { border: "1px solid black" })}
         />
         <p className="deal__component__price">
           <span>${price}</span> /Month
