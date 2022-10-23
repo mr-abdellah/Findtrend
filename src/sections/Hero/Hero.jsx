@@ -29,26 +29,30 @@ const Hero = () => {
           title="Cryptopunk - Search"
           img={TwitterImg}
           rotate="-4deg"
-          zIndex='412'
-          />
+          zIndex="412"
+          duration="1"
+        />
         <SocialMediaComponent
           title="Cryptopunk - Search"
           img={PinterestImg}
           rotate="2deg"
-          zIndex='3'
-          />
+          zIndex="3"
+          duration="2"
+        />
         <SocialMediaComponent
           title="Cryptopunk - Search"
           img={FacebookImg}
           rotate="-2deg"
-          zIndex='2'
-          />
+          zIndex="2"
+          duration="3"
+        />
         <SocialMediaComponent
           title="Cryptopunk - Search"
           img={DribbleImg}
           rotate="4deg"
-          zIndex='1'
-          />
+          zIndex="1"
+          duration="4"
+        />
       </div>
     </section>
   );

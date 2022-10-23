@@ -1,17 +1,27 @@
 import React from "react";
 import CloseIcon from "@mui/icons-material/Close";
 import "./SocialMediaComponent.css";
+import { motion } from "framer-motion";
 
-const SocialMediaComponent = ({ img, title, rotate, zIndex }) => {
+const SocialMediaComponent = ({ img, title, rotate, zIndex, duration }) => {
   return (
-    <div
+    <motion.div
+      initial={{
+        opacity: 0,
+      }}
+      whileInView={{
+        opacity: 1,
+      }}
+      transition={{
+        duration: duration,
+      }}
       className="SocialMediaComponent"
       style={{ transform: `rotate(${rotate})`, zIndex: `${zIndex}` }}
     >
       <img src={img} alt="" />
       <p>{title}</p>
       <CloseIcon />
-    </div>
+    </motion.div>
   );
 };
 
